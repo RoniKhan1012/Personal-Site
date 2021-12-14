@@ -1,0 +1,100 @@
+
+body{
+    
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*nav bar design start hare*/
+.nav-logo{
+    text-align: left;
+}
+.nav-heading h1{
+    text-align: right;
+    padding-top: 23px;
+}
+.nav-menu{
+    justify-content: flex-end;
+    flex-direction: row;
+
+}
+.nav-menu a{
+   
+    margin: 20px 0;
+    background-color: transparent;
+    padding-top: 15px;
+}
+/*nav bar design end hare*/
+
+
+
+/*profile design start here*/
+
+.profile .top-cloudy-image{
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    width: 105px;
+    transition: width 2s transform 2s;
+}
+.profile .top-cloudy-image:hover{
+    width: 115px;
+    transform: rotate(360deg);
+}
+
+.profile-desc p{
+    color: rgb(177, 153, 92);
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.profile .bottom-cloudy-image{
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
+    width: 105px;
+    transition: width 2s transform 2s;
+}
+.profile .bottom-cloudy-image:hover{
+    width: 115px;
+    transform: rotate(360deg);
+}
+
+/*profile design ends here*/
+
+/*about me design start*/
+
+.image-div{
+      margin-top: 100px;
+}
+.image-div img{
+    height: 270px;
+    width: 250px;
+}
+.personal-info p{ 
+    text-align: left;
+}
+.personal-info h3{ 
+    text-align: left;
+}
+
+/*about me design end*/
+
+/*personal experience starts*/
+
+
+/*personal exprience end*/
